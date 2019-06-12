@@ -8,7 +8,10 @@
   <body id="page-top">
     <% if Helpers.current_user(session) %>
       <h1>Welcome <%= Helpers.current_user(session).username %></h1>
+<<<<<<< HEAD
       <h3>Your Balance: <%= Helpers.current_user(session).balance %></h3>
+=======
+>>>>>>> f205d9de3dbb8b52d7e2558bf8efd7210085b6f1
     <% else %>
       <a href="/">Home Page</a>
     <% end %>
